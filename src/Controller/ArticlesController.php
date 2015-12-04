@@ -1,6 +1,5 @@
 <?php
 namespace App\Controller;
-
 class ArticlesController extends AppController{
 
     public function index()
@@ -56,7 +55,21 @@ class ArticlesController extends AppController{
                 $this->Flash->success(__('The article with id: {0} has been deleted.', h($id)));
                 return $this->redirect(['action' => 'index']);
             }
-}
+        }
+        public function comments($id = null)
+        {
+            $comments = $this->Articles->get($id);
+            if ($this->request->is(['post', 'put'])) 
+            {
+                $this->Articles->patchEntity($comments, $this->request->data);
+                if ($this->Articles->save($comments)) {
+                    $this->Flash->success(__('Your Comment has been updated.'));
+                    return $this->redirect(['action' => 'index']);
+                }
+                $this->Flash->error(__('Unable to update your Comment.'));
+            }
+           $this->set('comment', $comment);
+        }
     
 }
 ?>

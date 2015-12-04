@@ -27,7 +27,9 @@
                 ['confirm' => 'Are you sure?'])
             ?>
             <?= $this->Html->link('Edit', ['action' => 'edit', $article->id]) ?>
+           
         </td>
+       
     </tr>
     <?php endforeach; ?>
 </table>
