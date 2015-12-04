@@ -10,6 +10,11 @@ class ArticlesTable extends Table
     public function initialize(array $config)
     {
         $this->addBehavior('Timestamp');
+        $this->belongsTo('Authors', [
+            'className' => 'Users',
+            'foreignKey' => 'user_id'
+        ]);
+        $this->hasMany('Comments');
     }
 
     public function validationDefault(Validator $validator)

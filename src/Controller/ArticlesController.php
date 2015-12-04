@@ -5,7 +5,7 @@ class ArticlesController extends AppController{
 
     public function index()
     {
-        $articles = $this->Articles->find('all');
+        $articles = $this->Articles->find('all')->contain(['Authors']);
         $this->set(compact('articles'));
     }
      public function initialize()
@@ -17,7 +17,7 @@ class ArticlesController extends AppController{
 
  public function view($id)
     {
-        $article = $this->Articles->get($id);
+        $article = $this->Articles->get($id, ['contain' => ['Authors', 'Comments']]);
         $this->set(compact('article'));
     }
 
