@@ -29,6 +29,12 @@
             <?= $this->Html->link('Edit', ['action' => 'edit', $article->id]) ?>
            
         </td>
+        <td>
+           <?= $this->Form->postLink(
+                'Approved',
+                ['action' => 'approve', $article->id]);
+            ?>
+        </td>
        
     </tr>
     <?php endforeach; ?>
