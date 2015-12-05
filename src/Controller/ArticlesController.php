@@ -56,20 +56,6 @@ class ArticlesController extends AppController{
                 return $this->redirect(['action' => 'index']);
             }
         }
-        public function comments($id = null)
-        {
-            $comments = $this->Articles->get($id);
-            if ($this->request->is(['post', 'put'])) 
-            {
-                $this->Articles->patchEntity($comments, $this->request->data);
-                if ($this->Articles->save($comments)) {
-                    $this->Flash->success(__('Your Comment has been updated.'));
-                    return $this->redirect(['action' => 'index']);
-                }
-                $this->Flash->error(__('Unable to update your Comment.'));
-            }
-           $this->set('comment', $comment);
-        }
     
 }
 ?>
