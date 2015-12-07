@@ -6,9 +6,10 @@ class CommentsController extends AppController
       {
           
         $comment= $this->Comments->newEntity();
-       // var_dump($comment);
+       
           if ($this->request->is('post')) 
         {
+               var_dump($comment);
             /*
             $tempComment=($this->request->data);
             var_dump($tempComment);

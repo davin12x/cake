@@ -5,6 +5,7 @@ class ArticlesController extends AppController{
     public function index()
     {
         $articles = $this->Articles->find('all')->contain(['Authors']);
+        
         $this->set(compact('articles'));
     }
      public function initialize()
@@ -16,7 +17,20 @@ class ArticlesController extends AppController{
 
  public function view($id)
     {
+     
+        
         $article = $this->Articles->get($id, ['contain' => ['Authors', 'Comments']]);
+        //debug($this->Articles->schema());
+        if($article['user_id']==true)//If comment is approved
+        {
+            ?> parth <?php 
+              
+        }
+        else
+        { 
+           ?> lalit <?php
+        } 
+    
         $this->set(compact('article'));
     }
 
@@ -24,18 +38,19 @@ class ArticlesController extends AppController{
     {
         
         $article = $this->Articles->newEntity();
-        if ($this->request->is('post')) {
+        if ($this->request->is('post')) 
+        {
+             $article->user_id = $this->Auth->user('id');//Saving User Id
             $article = $this->Articles->patchEntity($article, $this->request->data);
-            if ($this->Articles->save($article)) {
-                $this->Flash->success(__('Your article has been saved.'));
-                return $this->redirect(['action' => 'index']);
+            if ($this->Articles->save($article)) 
+            {
                 
+                $this->Flash->success(__('Your article has been saved.'));
+                return $this->redirect(['action' => 'index']);        
             }
             $this->Flash->error(__('Unable to add your article.'));
         }
         $this->set('article', $article);
-         
-        
     }
         public function edit($id = null)
         {
