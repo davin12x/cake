@@ -1,5 +1,12 @@
 <h1>Blog articles</h1>
 <?= $this->Html->link('Add Article', ['action' => 'add']) ?>
+<section class="top-bar-section">
+            <ul class="right">
+                <li><?= $this->Html->link('Sign In', ['action' => 'add', 'controller' => 'users']) ?></li>
+                <li><?= $this->Html->link('LOG IN', ['action' => 'login', 'controller' => 'users']) ?></li>
+                <li><?= $this->Html->link('LOG OUT', ['action' => 'logout', 'controller' => 'users']) ?></li>
+            </ul>
+</section>
 <table>
     <tr>
         <th>Id</th>
@@ -29,12 +36,7 @@
             <?= $this->Html->link('Edit', ['action' => 'edit', $article->id]) ?>
            
         </td>
-        <td>
-           <?= $this->Form->postLink(
-                'Approved',
-                ['action' => 'approve', $article->id]);
-            ?>
-        </td>
+     
        
     </tr>
     <?php endforeach; ?>

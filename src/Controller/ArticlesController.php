@@ -23,12 +23,11 @@ class ArticlesController extends AppController{
         //debug($this->Articles->schema());
         if($article['user_id']==true)//If comment is approved
         {
-            ?> parth <?php 
-              
+            ?> <?php
         }
         else
         { 
-           ?> lalit <?php
+           ?> <?php
         } 
     
         $this->set(compact('article'));
