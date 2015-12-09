@@ -17,18 +17,11 @@ class CommentsController extends AppController
        
           if ($this->request->is('post')) 
         {
-               //var_dump($comment);
-            /*
-            $tempComment=($this->request->data);
-            var_dump($tempComment);
-            */
-             // $comment->Title='lalitss';
-              //$comment->Body='bodys';
-             // $comment->article_id=4;
                $comment = $this->Comments->patchEntity($comment, $this->request->data);
+            //  Debug($comment);
               $this->Comments->save($comment);
         }
-       // $this->set('view', $comment);
+       //$this->set('view', $comment);
          $this->redirect($this->referer());
       }
     public function view($id = null)

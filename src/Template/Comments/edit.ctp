@@ -2,7 +2,7 @@
 <?php
     echo $this->Form->create($comment);
     echo $this->Form->input('Comment', ['rows' => '4']);
-    echo $this->Form->input('approved', array(
+    echo $this->Form->input('publish', array(
         'type' => 'checkbox',
         'between' => '<span>',
         'after' => '</span>'

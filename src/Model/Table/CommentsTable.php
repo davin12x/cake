@@ -10,14 +10,15 @@ class CommentsTable extends Table
     public function initialize(array $config)
     {
         $this->table('comments');
-        $this->displayField('title');
+        $this->displayField('publish');
         $this->primaryKey('id');
+        
 
         
         //one to one relationship
         $this->belongsTo('Articles', [
             'className' => 'Articles',
-            'foreignKey' => 'article_id'
+            //'foreignKey' => 'article_id'
         ]);
         
     }

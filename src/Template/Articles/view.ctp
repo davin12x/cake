@@ -10,6 +10,7 @@
     <tr>        
         <th>Comment</th>
        <th></th>
+        <th></th>
         
     </tr>
      <?php 
@@ -26,7 +27,7 @@
                 ['confirm' => 'Are you sure?'])
             ?></td>
         <td>
-            <?= $this->Html->link('Edit', ['action' => 'edit', $comment->id]) ?>
+            <?= $this->Html->link('Edit', ['action' => 'edit','controller'=>'comments',$comment->id]) ?>
         </td>
     
 
@@ -40,6 +41,7 @@
     echo $this->Form->input('Comment', ['rows' => '4']);
     //echo $this->Form->input('Body');
     echo $this->Form->hidden('article_id', array('value' => $article['id']));
+    echo $this->Form->hidden('publish', array('value' => $article['publish']));
     
     echo $this->Form->button(__('Save Comment'));
     echo $this->Form->end();
@@ -57,7 +59,7 @@
             <?= $comment->created ?>
         </td>
         <td>
-            <?= $comment->approved ?>
+            <?= $comment->publish ?>
         </td>
         </td>
         
