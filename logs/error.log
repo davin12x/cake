@@ -3607,3 +3607,585 @@ Stack Trace:
 #5 {main}
 
 
+2015-12-09 05:56:47 Error: Fatal Error (1): Call to a member function get() on boolean in [C:\xampp\htdocs\cake\src\Controller\CommentsController.php, line 49]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 05:56:48 Error: [Cake\Error\FatalErrorException] Call to a member function get() on boolean
+Request URL: /cake/comments/edit/43
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 49)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 05:57:11 Error: [Cake\View\Exception\MissingTemplateException] Template file "Comments\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments\\edit.ctp',
+)
+Request URL: /cake/comments/edit/43
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php(575): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CommentsController))
+#4 C:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-09 06:00:15 Error: Fatal Error (1): Call to a member function patchEntity() on boolean in [C:\xampp\htdocs\cake\src\Controller\CommentsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 06:00:16 Error: [Cake\Error\FatalErrorException] Call to a member function patchEntity() on boolean
+Request URL: /cake/comments/edit/43
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 06:02:46 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:06:24 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:08:07 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:08:30 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:09:30 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:10:09 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:11:04 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Articles\view.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Articles\view.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:11:21 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Articles\view.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Articles\view.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:16:44 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:17:16 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:18:10 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:19:49 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:21:47 Error: Fatal Error (1): Call to undefined method App\Controller\AppController::isAuthorized() in [C:\xampp\htdocs\cake\src\Controller\CommentsController.php, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 06:21:47 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\AppController::isAuthorized()
+Request URL: /cake/comments
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 06:22:19 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Comments\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:25:15 Error: [Cake\Controller\Exception\MissingActionException] Action CommentsController::view() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cake/comments/view/30
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CommentsController))
+#2 C:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-09 06:26:36 Warning: Warning (2): Missing argument 1 for App\Controller\ArticlesController::view() in [C:\xampp\htdocs\cake\src\Controller\ArticlesController.php, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\ArticlesController::view() - APP/Controller\ArticlesController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:26:37 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "articles" with primary key [NULL]
+Request URL: /cake/articles/view
+Stack Trace:
+#0 C:\xampp\htdocs\cake\src\Controller\ArticlesController.php(22): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\ArticlesController->view()
+#2 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#5 C:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-09 06:28:11 Warning: Warning (2): Missing argument 1 for App\Controller\ArticlesController::view() in [C:\xampp\htdocs\cake\src\Controller\ArticlesController.php, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\ArticlesController::view() - APP/Controller\ArticlesController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 06:28:12 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "articles" with primary key [NULL]
+Request URL: /cake/articles/view
+Stack Trace:
+#0 C:\xampp\htdocs\cake\src\Controller\ArticlesController.php(20): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\ArticlesController->view()
+#2 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#5 C:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-09 06:29:58 Error: [Cake\Controller\Exception\MissingActionException] Action CommentsController::view() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cake/comments/view/30
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CommentsController))
+#2 C:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-12-09 06:30:57 Error: [Cake\View\Exception\MissingTemplateException] Template file "Comments\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments\\view.ctp',
+)
+Request URL: /cake/comments/view/30
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php(575): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CommentsController))
+#4 C:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-09 06:43:32 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\xampp\htdocs\cake\src\Template\Comments\index.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 06:43:33 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cake/comments
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 06:52:20 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\cake\src\Template\Articles\view.ctp, line 2]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 06:52:20 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /cake/articles/view/33
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 06:53:16 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\cake\src\Template\Articles\view.ctp, line 2]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 06:53:16 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /cake/articles/view/33
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 06:54:03 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\cake\src\Template\Articles\view.ctp, line 2]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 06:54:03 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /cake/articles/view/33
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 06:54:12 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\cake\src\Template\Articles\view.ctp, line 2]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 06:54:12 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /cake/articles/view/33
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 07:05:01 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cake/users
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php(575): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-12-09 07:15:17 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xampp\htdocs\cake\src\Controller\CommentsController.php, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 07:15:18 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /cake/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 07:18:44 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "comments" with primary key [NULL]
+Request URL: /cake/comments/edit
+Stack Trace:
+#0 C:\xampp\htdocs\cake\src\Controller\CommentsController.php(70): Cake\ORM\Table->get(NULL)
+#1 [internal function]: App\Controller\CommentsController->edit()
+#2 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CommentsController))
+#5 C:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-09 07:18:58 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "comments" with primary key [NULL]
+Request URL: /cake/comments/edit
+Stack Trace:
+#0 C:\xampp\htdocs\cake\src\Controller\CommentsController.php(70): Cake\ORM\Table->get(NULL)
+#1 [internal function]: App\Controller\CommentsController->edit()
+#2 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CommentsController))
+#5 C:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-09 07:23:56 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\cake\src\Controller\CommentsController.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 07:23:56 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cake/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 46)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 07:26:10 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::patchEntity() must implement interface Cake\Datasource\EntityInterface, null given, called in C:\xampp\htdocs\cake\src\Controller\CommentsController.php on line 21 and defined in [C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php, line 2040]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Table::patchEntity() - CORE\src\ORM\Table.php, line 2040
+App\Controller\CommentsController::add() - APP/Controller\CommentsController.php, line 21
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 07:26:10 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Marshaller::merge() must implement interface Cake\Datasource\EntityInterface, null given, called in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php on line 2046 and defined in [C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 439]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Marshaller::merge() - CORE\src\ORM\Marshaller.php, line 439
+Cake\ORM\Table::patchEntity() - CORE\src\ORM\Table.php, line 2046
+App\Controller\CommentsController::add() - APP/Controller\CommentsController.php, line 21
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 07:26:10 Error: Fatal Error (1): Call to a member function isNew() on null in [C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 444]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 07:26:11 Error: [Cake\Error\FatalErrorException] Call to a member function isNew() on null
+Request URL: /cake/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 444)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 07:26:16 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::patchEntity() must implement interface Cake\Datasource\EntityInterface, null given, called in C:\xampp\htdocs\cake\src\Controller\CommentsController.php on line 21 and defined in [C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php, line 2040]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Table::patchEntity() - CORE\src\ORM\Table.php, line 2040
+App\Controller\CommentsController::add() - APP/Controller\CommentsController.php, line 21
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 07:26:16 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Marshaller::merge() must implement interface Cake\Datasource\EntityInterface, null given, called in C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php on line 2046 and defined in [C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 439]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Marshaller::merge() - CORE\src\ORM\Marshaller.php, line 439
+Cake\ORM\Table::patchEntity() - CORE\src\ORM\Table.php, line 2046
+App\Controller\CommentsController::add() - APP/Controller\CommentsController.php, line 21
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-12-09 07:26:16 Error: Fatal Error (1): Call to a member function isNew() on null in [C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 444]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 07:26:16 Error: [Cake\Error\FatalErrorException] Call to a member function isNew() on null
+Request URL: /cake/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 444)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-09 07:29:39 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\cake\src\Controller\CommentsController.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-09 07:29:39 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cake/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
