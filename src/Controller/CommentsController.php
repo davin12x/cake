@@ -2,6 +2,12 @@
 namespace App\Controller;
 class CommentsController extends AppController
 {
+    public function index()
+    {
+        $user = $this->Auth->user();
+      
+         $this->set(compact('comments'));
+    }
       public function add()
       {
           
@@ -23,20 +29,21 @@ class CommentsController extends AppController
        // $this->set('view', $comment);
          $this->redirect($this->referer());
       }
-    public function delete()
+    public function delete($id=null)
     {
-        $test=($this->Comments->get($id));
-        var_dump($test);
-       // $this->request->allowMethod(['post', 'delete']);
-        //$comment =;
-        
-      //  if ($this->Comments->delete($comment)) {
-        //    $this->Flash->success(__('The comment has been deleted.'));
-     //   } else {    
-     //      $this->Flash->error(__('The comment could not be deleted. Please, try again.'));
-     //   }
-       // return $this->redirect(['action' => 'index','controller' => 'articles']);  
+          var_dump($this->Comments->get($id));
+        $this->request->allowMethod(['post', 'delete']);
+        $comment = $this->Comments->get($id);
+        if ($this->Comments->delete($comment)) 
+        {
+            $this->Flash->success(__('The comment has been deleted.'));
+        } else 
+        {
+            $this->Flash->error(__('The comment could not be deleted. Please, try again.'));
+        }
+        //return $this->redirect(['action' => 'index']);
+        $this->redirect($this->referer());
+    } 
 
-    }
 }
 ?>

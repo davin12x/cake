@@ -17,7 +17,14 @@
     $comments = $article->comments;
 	foreach ($comments as $comment): ?>
     <tr>        
-        <td><?= $comment->Comment ?></td>              
+        <td><?= $comment->Comment ?></td> 
+        <?php echo ("comment: "); var_dump($comment->id);?>
+        <?php echo ("article:"); var_dump($article->id);?>
+        <td><?= $this->Form->postLink(
+                'Delete',
+                ['controller'=>'comments','action' => 'delete', $comment->id],
+                ['confirm' => 'Are you sure?'])
+            ?></td>
     
 
     </tr>
