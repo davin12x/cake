@@ -80,7 +80,6 @@ class AppController extends Controller
         if (isset($user['role']) && $user['role'] === 'admin') {
         return true;
     }
-
     // Default deny
     return true;
     }

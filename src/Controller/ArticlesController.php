@@ -19,7 +19,7 @@ class ArticlesController extends AppController{
     {
         $article = $this->Articles->get($id, ['contain' => ['Authors', 'Comments']]);
         //debug($this->Articles->schema());
-        if($article['user_id']==true)//If comment is approved
+        if($article['publish']==true)//If comment is approved
         {
             ?> <?php
         }
