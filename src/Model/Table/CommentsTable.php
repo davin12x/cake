@@ -1,17 +1,17 @@
 <?php
 namespace App\Model\Table;
 
-use App\Model\Entity\Article;
+use App\Model\Entity\Comment;
 use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
 /**
- * Articles Model
+ * Comments Model
  *
  */
-class ArticlesTable extends Table
+class CommentsTable extends Table
 {
 
     /**
@@ -24,29 +24,17 @@ class ArticlesTable extends Table
     {
         parent::initialize($config);
 
-        $this->table('articles');
+        $this->table('comments');
         $this->displayField('title');
         $this->primaryKey('id');
 
-        $this->addBehavior('Timestamp');
         
         //one to one relationship
-        $this->belongsTo('Authors', [
-            'className' => 'Users',
-            'foreignKey' => 'user_id'
-        ]);
-        
-        //one to many relationship
-        $this->hasMany('Comments', [
-            'className' => 'Comments',
+        $this->belongsTo('Articles', [
+            'className' => 'Articles',
             'foreignKey' => 'article_id'
         ]);
-        
-        //many to many relationship
-         $this->belongsToMany('Tags', [
-            'joinTable' => 'articles_tags',
-            'saveStrategy' => 'replace'
-        ]);
+    
 
     }
 
@@ -67,8 +55,4 @@ class ArticlesTable extends Table
         return $validator;
     }
     
-    public function isOwnedBy($articleId, $userId)
-    {
-        return $this->exists(['id' => $articleId, 'user_id' => $userId]);
-    }
 }
